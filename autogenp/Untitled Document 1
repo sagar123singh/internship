@@ -1,0 +1,111 @@
+lIfGpUCFqV7Q8eSz
+
+
+
+token  github
+Solanki@@12   
+   
+   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
+   
+   
+   
+   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
+   
+   
+   
+   
+   
+   https://www.twilio.com/blog/facebook-oauth-login-node-js-app-passport-js
+   
+   
+   https://appleid.apple.com/auth/authorize?client_id=apple-sign-in-auth&redirect_uri=https%3A%2F%2Fapple-sign-in-auth.herokuapp.com%2F&response_type=code%20id_token&scope=email%20name&response_mode=web_message&frame_id=636e284b-cbb9-418e-bed3-463895a9b987&m=11&v=1.5.4
+   
+   
+   
+   https://dev.to/atultyagi612/google-authentication-in-nodejs-1f1d
+   https://medium.com/@sarthakmittal1461/to-build-login-sign-up-and-logout-restful-apis-with-node-js-using-jwt-authentication-f3d7287acca2
+   
+   
+   https://medium.com/swlh/node-and-passport-js-facebook-authentication-76cbfa903ff3
+   
+   
+   
+   
+   Redis, which stands for Remote Dictionary Server, is a fast, open source, in-memory, key-value data store. Because of its fast performance, Redis is a popular choice for caching, session management, gaming, leaderboards, real-time analytics, geospatial, ride-hailing, chat/messaging, media streaming, and pub/sub apps.Redis is the most popular caching tool.
+   
+   
+
+   redis-cli -u redis://default:181cOUq3YRvFLDhbxHwxtOlIBQA4NYiA@redis-11716.c44.us-east-1-2.ec2.cloud.redislabs.com:11716
+   
+ 
+ const Redis = require('ioredis');
+const fs = require('fs');
+
+const redis = new Redis({
+    host: 'redis-11716.c44.us-east-1-2.ec2.cloud.redislabs.com',
+    port: 11716,
+    password: '181cOUq3YRvFLDhbxHwxtOlIBQA4NYiA'
+});
+
+redis-11716.c44.us-east-1-2.ec2.cloud.redislabs.com:11716
+181cOUq3YRvFLDhbxHwxtOlIBQA4NYiA
+
+azynuvjtaesiieyxiy@tmmbt.net
+5b1d827b0703e12cbd90747288375a42   //api key
+6b32c95ab2b9af29f5e6bbebd757c21b   ///secret key
+
+
+
+
+
+
+
+
+
+
+
+// let a= 'hello';
+// function greet(){
+//     let b='world';
+//     console.log(a+""+b);
+//     if(b=="world"){
+//         let c="hello";
+//         console.log(a+""+b+""+c);
+//     }
+//     console.log(+""+b+""+c);
+// }
+// greet()
+
+// function myfunction(){
+//     console.log("hello world");
+//     let limit= 25;
+//     let sum=60;
+//     var randomValue=2.77;
+
+//     for(let value=1;value<limit;value=value+3){
+//         console.log("randomValue:",randomValue);
+//         for(let j=1;j<limit;j=j+2){
+//             sum++;
+//         }
+//         console.log("sum=",sum);
+//     }
+// }
+// myfunction()
+
+
+
+
+APPLE PASSWORD
+Lta.9X1[B<Atclfq1
+
+
+
+sudo mysql -u root -p
+
+
+//// geeks for geeks ploqpxornlaoaaflwv@tmmcv.com
+
+
+//****************************************************10 minute mail   send in mail ******************************************************************************//
+zbuufdwqeawkpweahn@tmmwj.com
+

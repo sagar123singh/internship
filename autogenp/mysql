@@ -1,0 +1,98 @@
+    WEBSITE FOR DATABASE SQL   https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_no_distinct
+    
+      mysql
+      
+      sudo mysql -u root -p                                                                                      
+      Sagar@@12
+      show databases;
+      use  databases name;
+      		select databases()
+      		
+      
+      show tables;
+      		desc tablename()
+      		
+      select columns from tablename
+      		drop table tablename;
+      			show tables;
+      			
+      				 
+      				 
+      				 
+  ///////**************************************************************************************************************//    				 
+      				 
+      				 show databases;
+use beginners;
+
+# Numeric functions
+
+select abs(-242);
+select mod(15,3);
+select mod(15,3) as remainder;
+select power(4,2);
+select sqrt(9144);
+select greatest(34,2,5,2,89);
+select least(34,2,5,2,89);
+select truncate(22.5768,4);
+
+create table students
+(stud_id int primary key,
+stu_name varchar(25),
+age int,gender char(1),dob date,city varchar(20));
+
+insert into students values
+(01,"sagara",21,"M","2022-11-21","jjrrtr"),
+(02,"sagarb",22,"M","2022-11-22","jjrgh"),
+(03,"sagarc",23,"M","2022-11-23","jjrds"),
+(04,"sagard",24,"M","2022-11-24","jjrfdf"),
+(05,"sagare",25,"M","2022-11-25","jjrfdf"),
+(06,"sagarf",26,"M","2022-11-26","jjrfdf"),
+(07,"sagarg",27,"M","2022-11-27","jdfdjr");
+
+
+
+select * from students;
+select stu_name, age,city from students;
+
+#where
+
+select * from students where city = 'jjrgh';
+select * from students where city = 'jjrgh' and gender = "M";
+select * from students where city = 'jjrgh' or city = "jdfdjr";
+select * from students where not city = "jjrgh";
+
+# Group by
+
+select city, count(stud_id) as total_students from students group by city;
+
+#Having
+
+select city, count(stud_id) as total_students from students group by city having count(stud_id) > 1;
+
+##having
+
+select * from students order by city;
+select * from students order by city desc;
+
+#string functions
+
+select upper("India") as  upper_case;
+select lower("India") as  upper_case;
+select character_length("India") as  total_len;
+select stu_name, character_length(stu_name) as  total_len from students;
+
+select concat('india', 'is', 'my', 'country') as merged;
+
+select stud_id, stu_name, concat(stu_name," ",age) as name_age from students;
+//**********************************************************************************************************************//
+
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+GROUP BY column_name(s)
+HAVING condition
+ORDER BY column_name(s);
+
+
+  				 
+  ///////**************************************************************************************************************//    		

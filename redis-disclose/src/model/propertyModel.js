@@ -1,0 +1,30 @@
+const mongoose= require("mongoose")
+const propertySchema= new mongoose.Schema({
+    usedId: { type: mongoose.Schema.Types.ObjectId, 
+    },
+    doYouownOrLeaseProperty:{type:String,default:"",trim:true},
+    unitNumber:{type:Number,default:""},
+    floorLevel:{type:Number,default:""},
+    streetaddress:{type:String,default:""},
+    city:{type:String,default:"",trim:true,},
+    postcode:{type:Number,default:""},
+    PropertyType:{type:String,default:""},
+    bedrooms:{type:Number,default:"1"},
+    bathrooms:{type:Number,default:"1"},
+    parkingSpace:{type:Number,default:"0"},
+    areaSquareMTRs:{type:Number,default:"0"},
+    propertyDataDescription:{type:String,default:""},
+    parkingAvailability:{type:String,default:""},
+    dogAccept:{type:Boolean,default:false},
+    catAccept:{type:Boolean,default:true},
+    onsitePropertyManagement:{type:Boolean,default:true},
+    floorPlan:{type:Array,default:["",""]},
+    unitAlreadyFurnished:{type:Boolean,default:true},
+    bed1Size:{type:String,default:""},
+    bed2Size:{type:String,default:""},
+    accomodationOffer:{type:String,default:""},
+    kingRoomA:{type:Object,default:""},
+    queenRoomB:{type:Object,default:""},
+},{versionKey: false}, {timestamps:true})
+module.exports=mongoose.model("Property",propertySchema)
+

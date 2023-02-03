@@ -1,0 +1,1 @@
+module.exports = "mongodb+srv://sagar123singh:lIfGpUCFqV7Q8eSz@cluster0.vffzhqi.mongodb.net/authentication?authSource=admin&replicaSet=atlas-qf1jhk-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true";

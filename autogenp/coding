@@ -1,0 +1,6 @@
+								//   coding question
+function removeDuplicates(arr) {
+    return arr.filter((ele,index) => arr.indexOf(ele) === index);
+}
+console.log(removeDuplicates([1,2,3,4,1]));
+
